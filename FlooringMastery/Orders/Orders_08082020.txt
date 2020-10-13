@@ -1,0 +1,4 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+5::Helen::TX::4.45::Wood::100.0::5.15::4.75::515.000::475.000::44.0550000::1034.0550000
+6::Nick::TX::4.45::Carpet::100.0::2.25::2.10::225.000::210.000::19.3575000::454.3575000
+7::Tom::TX::4.45::Carpet::100.0::2.25::2.10::225.000::210.000::19.3575000::454.3575000

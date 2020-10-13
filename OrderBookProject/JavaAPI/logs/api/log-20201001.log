@@ -1,0 +1,252 @@
+22:21:01.434 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:21:01.434 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:21:06.566 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:22:41.154 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:22:41.154 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:22:46.282 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:37:29.950 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:37:29.951 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:37:36.092 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:37:56.252 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/participants/
+22:37:56.252 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/stocks/
+22:37:56.253 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/participants/ Params[null]]
+22:37:56.253 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/stocks/ Params[null]]
+22:37:57.639 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:37:57.640 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:37:59.069 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:37:59.069 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:37:59.092 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:37:59.092 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:38:01.407 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:01.429 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:38:01.429 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:38:01.431 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:38:01.431 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:38:01.432 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:38:01.432 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:38:01.453 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:38:01.453 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:38:01.553 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:01.733 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:02.444 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:04.576 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:38:04.576 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:38:06.438 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:06.451 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:10.583 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:14.938 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:38:14.938 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:38:14.943 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:38:14.943 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:38:16.793 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:17.584 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:29.181 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/add
+22:38:29.181 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][OPTIONS http://localhost:8080/orders/add Params[null]]
+22:38:29.182 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:29.200 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/add
+22:38:29.200 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][POST http://localhost:8080/orders/add Params[null]]
+22:38:34.626 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:34.709 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:38:34.709 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:38:34.723 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:38:34.723 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:38:36.657 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:36.681 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:38:36.681 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:38:36.684 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:38:36.684 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:38:36.689 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:38:36.689 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:38:36.705 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:38:36.705 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:38:36.901 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:36.902 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:37.544 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:40.679 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:38:40.679 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:38:43.252 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:43.461 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:38:47.083 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:43:57.022 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:43:57.022 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:43:57.041 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:43:57.041 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:43:58.772 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:43:58.794 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:43:58.794 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:43:58.796 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:43:58.796 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:43:58.797 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:43:58.797 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:43:58.811 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:43:58.811 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:43:58.919 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:43:59.098 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:44:00.480 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:44:05.041 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:44:05.648 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:44:53.629 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:44:53.643 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:44:59.499 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:45:05.109 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:45:05.109 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:45:05.111 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:45:05.111 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:45:07.340 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:45:08.547 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:24.797 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/13
+22:46:24.797 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/13 Params[null]]
+22:46:24.813 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/13
+22:46:24.813 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/13 Params[null]]
+22:46:25.921 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:25.931 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:25.983 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/13
+22:46:25.983 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/13 Params[null]]
+22:46:25.985 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/13
+22:46:25.986 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/13 Params[null]]
+22:46:25.987 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/13
+22:46:25.987 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/13 Params[null]]
+22:46:25.997 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/13
+22:46:25.997 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/13 Params[null]]
+22:46:26.135 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][204][exception: null]
+22:46:26.272 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][204][exception: null]
+22:46:26.273 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:26.273 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:32.423 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:46:32.423 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:46:32.435 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:46:32.435 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:46:34.943 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:34.961 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:46:34.961 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:46:34.967 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:46:34.967 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:46:34.968 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:46:34.968 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:46:34.973 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:46:34.973 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:46:35.075 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:35.175 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:35.760 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:40.394 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:46:40.901 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:20.985 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/stocks/
+22:48:20.985 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/stocks/ Params[null]]
+22:48:20.991 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/participants/
+22:48:20.991 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/participants/ Params[null]]
+22:48:21.159 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/stocks/
+22:48:21.159 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/stocks/ Params[null]]
+22:48:21.160 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/participants/
+22:48:21.160 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/participants/ Params[null]]
+22:48:22.084 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:22.085 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:22.186 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:22.186 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:25.451 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:48:25.452 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:48:28.940 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:28.984 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:48:28.985 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:48:30.713 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:30.744 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:48:30.744 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:48:30.747 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:48:30.747 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:48:30.747 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:48:30.758 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:48:30.770 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:48:30.770 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:48:31.074 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:31.076 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:36.790 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:37.108 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:41.932 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/13
+22:48:41.932 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/13 Params[null]]
+22:48:42.946 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:42.963 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/13
+22:48:42.963 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/13 Params[null]]
+22:48:43.995 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:44.013 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/13
+22:48:44.013 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/13 Params[null]]
+22:48:44.013 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/13
+22:48:44.013 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/13 Params[null]]
+22:48:44.016 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/13
+22:48:44.016 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/13 Params[null]]
+22:48:44.030 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/13
+22:48:44.030 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/13 Params[null]]
+22:48:44.137 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][204][exception: null]
+22:48:44.218 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:44.219 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:44.230 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][204][exception: null]
+22:48:51.071 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:48:51.071 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:48:54.096 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:54.114 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:48:54.114 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:48:56.481 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:56.499 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:48:56.499 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:48:56.499 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:48:56.499 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:48:56.501 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:48:56.501 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:48:56.510 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:48:56.510 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:48:56.779 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:48:56.780 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:49:02.399 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:49:02.399 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:16.434 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/add
+22:51:16.434 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][POST http://localhost:8080/orders/add Params[null]]
+22:51:16.914 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][400][exception: null]
+22:51:16.989 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:51:16.989 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:51:20.504 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:20.526 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:51:20.526 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:51:22.971 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:22.997 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:51:22.997 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:51:23.001 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:51:23.001 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:51:23.003 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:51:23.003 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:51:23.022 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:51:23.022 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:51:23.264 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:23.264 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:28.642 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:28.827 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:56.402 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/stocks/
+22:51:56.402 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/stocks/ Params[null]]
+22:51:56.402 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/participants/
+22:51:56.403 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/participants/ Params[null]]
+22:51:56.592 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/stocks/
+22:51:56.592 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/stocks/ Params[null]]
+22:51:56.594 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/participants/
+22:51:56.594 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/participants/ Params[null]]
+22:51:57.227 [http-nio-8080-exec-3] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:57.228 [http-nio-8080-exec-9] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:57.540 [http-nio-8080-exec-6] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:51:57.700 [http-nio-8080-exec-10] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:52:24.883 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/bids/1
+22:52:24.883 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/bids/1 Params[null]]
+22:52:28.633 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:52:28.675 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/offers/1
+22:52:28.675 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/offers/1 Params[null]]
+22:52:30.697 [http-nio-8080-exec-7] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:52:30.730 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/orders/volume/1
+22:52:30.730 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/orders/volume/1 Params[null]]
+22:52:30.734 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/volume/1
+22:52:30.734 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/volume/1 Params[null]]
+22:52:30.736 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/latest/1
+22:52:30.736 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/latest/1 Params[null]]
+22:52:30.773 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:52:30.773 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:52:30.935 [http-nio-8080-exec-4] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:52:30.969 [http-nio-8080-exec-8] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:52:36.611 [http-nio-8080-exec-2] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:52:36.732 [http-nio-8080-exec-1] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]
+22:57:58.157 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - http://localhost:8080/trades/1
+22:57:58.157 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Request][GET http://localhost:8080/trades/1 Params[null]]
+22:58:04.335 [http-nio-8080-exec-5] INFO  c.m.o.i.RequestHeaderInterceptor - [Response][200][exception: null]

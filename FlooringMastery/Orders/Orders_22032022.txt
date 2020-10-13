@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+9::Bernard::TX::4.45::Wood::100.0::5.15::4.75::515.000::475.000::44.0550000::1034.0550000

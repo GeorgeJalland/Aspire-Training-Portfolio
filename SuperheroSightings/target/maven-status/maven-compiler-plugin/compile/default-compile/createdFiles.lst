@@ -1,0 +1,9 @@
+com/mthree/superherosightings/repositories/SuperheroRepository.class
+com/mthree/superherosightings/repositories/LocationRepository.class
+com/mthree/superherosightings/repositories/SightingRepository.class
+com/mthree/superherosightings/entities/Organisation.class
+com/mthree/superherosightings/entities/Superhero_Villain.class
+com/mthree/superherosightings/entities/Sighting.class
+com/mthree/superherosightings/repositories/OrganisationRepository.class
+com/mthree/superherosightings/entities/Location.class
+com/mthree/superherosightings/App.class

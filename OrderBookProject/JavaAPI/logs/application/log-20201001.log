@@ -1,0 +1,271 @@
+17:35:40.488 [main] INFO  c.m.o.OrderbookApplicationTests - Starting OrderbookApplicationTests on Skeksil with PID 12617 (started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+17:35:40.494 [main] INFO  c.m.o.OrderbookApplicationTests - No active profile set, falling back to default profiles: default
+17:35:42.699 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17:35:42.832 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101ms. Found 5 JPA repository interfaces.
+17:35:44.599 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:35:44.826 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:35:45.109 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+17:35:45.818 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:35:45.907 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:35:46.222 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:35:47.186 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+17:35:47.389 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:35:47.481 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+17:35:48.776 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:35:48.785 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:35:49.414 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+17:35:49.460 [main] INFO  c.m.o.OrderbookApplicationTests - Started OrderbookApplicationTests in 10.368 seconds (JVM running for 13.457)
+17:35:50.154 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mthree.orderbook.repositories.TradeRepositoryTest], using SpringBootContextLoader
+17:35:50.155 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.mthree.orderbook.repositories.TradeRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:35:50.156 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mthree.orderbook.repositories.TradeRepositoryTest]: TradeRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:50.162 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mthree.orderbook.OrderbookApplication for test class com.mthree.orderbook.repositories.TradeRepositoryTest
+17:35:50.164 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:35:50.165 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@c497a55, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7493d937, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5dc7841c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4d67d5a4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a3b858f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@600bbf9e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@18d30e7, org.springframework.test.context.event.EventPublishingTestExecutionListener@72b40f87, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2475fba3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@19bf47fc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@71dd4624, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2347b7af, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2864f887, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4b07cad0]
+17:35:54.716 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mthree.orderbook.repositories.MarketParticipantRepositoryTest], using SpringBootContextLoader
+17:35:54.717 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.mthree.orderbook.repositories.MarketParticipantRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:35:54.718 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mthree.orderbook.repositories.MarketParticipantRepositoryTest]: MarketParticipantRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:54.719 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mthree.orderbook.OrderbookApplication for test class com.mthree.orderbook.repositories.MarketParticipantRepositoryTest
+17:35:54.721 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:35:54.724 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2e85e3f1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@195498aa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4b360972, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@793d09e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68821f6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3ba46845, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@40a28bda, org.springframework.test.context.event.EventPublishingTestExecutionListener@592cb470, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1e6cb932, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6921cfa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@523abba9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e090aaa, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@15d79b70, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@33430fc]
+17:35:55.151 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mthree.orderbook.repositories.StockRepositoryTest], using SpringBootContextLoader
+17:35:55.152 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.mthree.orderbook.repositories.StockRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:35:55.153 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mthree.orderbook.repositories.StockRepositoryTest]: StockRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:55.154 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mthree.orderbook.OrderbookApplication for test class com.mthree.orderbook.repositories.StockRepositoryTest
+17:35:55.156 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:35:55.156 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1da5c19d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e4f2300, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@e706aa, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25e6c22a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@16fc5622, org.springframework.test.context.transaction.TransactionalTestExecutionListener@516c20de, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6906be0f, org.springframework.test.context.event.EventPublishingTestExecutionListener@7a62d697, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@edbc2bf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3e01796a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@62ab5e63, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@e91facf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5e8f0f98, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6bf0f70a]
+17:35:55.987 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mthree.orderbook.repositories.OrderRepositoryTest], using SpringBootContextLoader
+17:35:55.988 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.mthree.orderbook.repositories.OrderRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:35:55.988 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mthree.orderbook.repositories.OrderRepositoryTest]: OrderRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:55.989 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mthree.orderbook.OrderbookApplication for test class com.mthree.orderbook.repositories.OrderRepositoryTest
+17:35:55.991 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:35:55.991 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2382b2f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13374ca6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@71734463, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3f1d6a13, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7cbf4f8c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@55c46ec1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3eff6846, org.springframework.test.context.event.EventPublishingTestExecutionListener@6ae6d078, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6ca33187, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a67f8b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5f1f0ee6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@326706d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@76fc5687, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@53fbb2b4]
+17:35:58.026 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mthree.orderbook.service.TradeServiceTest], using SpringBootContextLoader
+17:35:58.027 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.mthree.orderbook.service.TradeServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:35:58.028 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mthree.orderbook.service.TradeServiceTest]: TradeServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:58.033 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mthree.orderbook.OrderbookApplication for test class com.mthree.orderbook.service.TradeServiceTest
+17:35:58.034 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:35:58.035 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@688d2a5d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2842c098, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2820b369, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@46b21632, org.springframework.test.context.support.DirtiesContextTestExecutionListener@476c137b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@79144d0e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@540212be, org.springframework.test.context.event.EventPublishingTestExecutionListener@2579d8a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2507a170, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7e20f4e3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3af39e7b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f6ff62, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1c62d2ad, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@651caa2e]
+17:35:58.549 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.mthree.orderbook.service.OrderServiceTest], using SpringBootContextLoader
+17:35:58.550 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.mthree.orderbook.service.OrderServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:35:58.550 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mthree.orderbook.service.OrderServiceTest]: OrderServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:35:58.551 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mthree.orderbook.OrderbookApplication for test class com.mthree.orderbook.service.OrderServiceTest
+17:35:58.552 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+17:35:58.553 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12200670, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5e80d5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@257b3561, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@78861d9e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6a878778, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1eabfad5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6207145c, org.springframework.test.context.event.EventPublishingTestExecutionListener@2a259f6f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ccf6114, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3df3410a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@670c171c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61d42275, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6614289a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4148ce43]
+17:36:02.122 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:36:02.125 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:36:02.125 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:36:02.186 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:36:52.281 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Starting OrderbookApplication on Skeksil with PID 12972 (/home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook/target/classes started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+17:36:52.298 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - No active profile set, falling back to default profiles: default
+17:36:52.550 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:36:52.551 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:36:54.986 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+17:36:55.112 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117ms. Found 5 JPA repository interfaces.
+17:36:56.990 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+17:36:57.009 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:36:57.010 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+17:36:57.148 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:36:57.150 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4599 ms
+17:36:57.405 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+17:36:57.542 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:36:57.633 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+17:36:57.840 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:36:58.077 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+17:36:58.544 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:36:59.355 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+17:36:59.722 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+17:36:59.731 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:37:02.812 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:37:02.843 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+17:37:03.828 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+17:37:03.836 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:37:03.839 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+17:37:03.841 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:37:04.298 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:37:04.300 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+17:37:04.314 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:37:04.316 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+22:17:20.985 [main] INFO  c.m.o.r.TradeRepositoryTest - Starting TradeRepositoryTest on Skeksil with PID 32556 (started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+22:17:21.005 [main] INFO  c.m.o.r.TradeRepositoryTest - No active profile set, falling back to default profiles: default
+22:17:22.422 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+22:17:22.521 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 5 JPA repository interfaces.
+22:17:23.379 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:17:23.511 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:17:23.670 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+22:17:24.159 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+22:17:24.270 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22:17:24.466 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:17:25.087 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:17:25.191 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+22:17:25.538 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+22:17:26.457 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:17:26.465 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:17:26.901 [main] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+22:17:26.909 [main] INFO  c.m.o.r.TradeRepositoryTest - Started TradeRepositoryTest in 6.872 seconds (JVM running for 8.943)
+22:17:31.217 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+22:17:31.250 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:17:31.251 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:17:31.431 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:20:41.478 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Starting OrderbookApplication on Skeksil with PID 433 (/home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook/target/classes started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+22:20:41.481 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - No active profile set, falling back to default profiles: default
+22:20:41.542 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:20:41.542 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:20:42.357 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+22:20:42.434 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 5 JPA repository interfaces.
+22:20:43.252 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:20:43.262 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:20:43.263 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:20:43.410 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:20:43.410 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1868 ms
+22:20:43.593 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:20:43.636 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:20:43.680 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+22:20:43.724 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22:20:43.859 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+22:20:44.025 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:20:44.255 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+22:20:44.312 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:20:44.315 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+22:20:46.485 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:20:46.517 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22:20:47.319 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:20:47.326 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:20:47.712 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+22:20:47.722 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Started OrderbookApplication in 6.675 seconds (JVM running for 7.155)
+22:20:47.725 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Application Listening
+22:21:01.395 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:21:01.396 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:21:01.403 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+22:21:46.179 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+22:21:46.182 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:21:46.184 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:21:47.530 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:21:54.002 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Starting OrderbookApplication on Skeksil with PID 615 (/home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook/target/classes started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+22:21:54.008 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - No active profile set, falling back to default profiles: default
+22:21:54.122 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:21:54.123 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:21:55.460 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+22:21:55.561 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90ms. Found 5 JPA repository interfaces.
+22:21:56.382 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:21:56.396 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:21:56.397 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:21:56.501 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:21:56.502 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2379 ms
+22:21:56.700 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:21:56.749 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:21:56.804 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+22:21:56.903 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22:21:57.006 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+22:21:57.175 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:21:57.678 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+22:21:57.701 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+22:21:57.703 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+22:21:59.216 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:21:59.245 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22:22:00.047 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:22:00.054 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:22:00.056 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:22:00.059 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:22:00.608 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:22:00.612 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+22:22:00.638 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+22:22:00.640 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+22:22:25.847 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Starting OrderbookApplication on Skeksil with PID 756 (/home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook/target/classes started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+22:22:25.851 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - No active profile set, falling back to default profiles: default
+22:22:25.908 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:22:25.908 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:22:26.799 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+22:22:26.880 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 5 JPA repository interfaces.
+22:22:27.741 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:22:27.752 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:22:27.753 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:22:27.851 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:22:27.852 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1943 ms
+22:22:28.022 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:22:28.085 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:22:28.140 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+22:22:28.225 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22:22:28.373 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+22:22:28.481 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:22:28.803 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:22:28.862 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:22:28.865 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+22:22:30.444 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:22:30.475 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22:22:31.621 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:22:31.633 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:22:32.120 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+22:22:32.129 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Started OrderbookApplication in 6.727 seconds (JVM running for 7.177)
+22:22:32.133 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Application Listening
+22:22:41.119 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:22:41.119 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:22:41.137 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+22:37:04.697 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+22:37:04.718 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+22:37:04.722 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:37:06.122 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:37:16.247 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Starting OrderbookApplication on Skeksil with PID 2062 (/home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook/target/classes started by george in /home/george/Documents/mthree/FinalProject/project-matching-engine-team-m-3/orderbook)
+22:37:16.251 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - No active profile set, falling back to default profiles: default
+22:37:16.333 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+22:37:16.334 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+22:37:17.866 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+22:37:18.031 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 153ms. Found 5 JPA repository interfaces.
+22:37:19.253 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+22:37:19.269 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+22:37:19.271 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+22:37:19.444 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:37:19.445 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3110 ms
+22:37:19.812 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+22:37:19.898 [task-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+22:37:19.979 [task-1] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+22:37:20.074 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22:37:20.321 [task-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+22:37:20.600 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:37:21.029 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+22:37:21.093 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+22:37:21.095 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+22:37:23.030 [task-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:37:23.075 [task-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+22:37:24.043 [task-1] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22:37:24.051 [task-1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+22:37:24.478 [restartedMain] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+22:37:24.492 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Started OrderbookApplication in 8.84 seconds (JVM running for 9.922)
+22:37:24.496 [restartedMain] INFO  c.m.orderbook.OrderbookApplication - Application Listening
+22:37:29.920 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:37:29.929 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:37:29.937 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+22:51:16.868 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.mthree.orderbook.entities.Order com.mthree.orderbook.controllers.OrderController.addOrder(com.mthree.orderbook.entities.Order): [Field error in object 'order' on field 'price': rejected value [null]; codes [NotNull.order.price,NotNull.price,NotNull.java.math.BigDecimal,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [order.price,price]; arguments []; default message [price]]; default message [must not be null]] ]
+23:19:14.966 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:19:15.345 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+23:19:15.511 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:19:17.135 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

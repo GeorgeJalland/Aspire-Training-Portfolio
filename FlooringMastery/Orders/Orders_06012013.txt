@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+1::Ada Lovelace::TX::4.45::Tile::249.0::3.50::4.15::871.500::1033.350::84.7658250::1989.6158250

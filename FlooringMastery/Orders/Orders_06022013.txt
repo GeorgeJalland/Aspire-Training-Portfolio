@@ -1,0 +1,2 @@
+OrderNumber::CustomerName::State::TaxRate::ProductType::Area::CostPerSquareFoot::LaborCostPerSquareFoot::MaterialCost::LaborCost::Tax::Total
+2::Doctor Whom::WA::9.25::Wood::243.0::5.15::4.75::1251.450::1154.250::222.5272500::2628.2272500

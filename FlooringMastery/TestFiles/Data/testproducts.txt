@@ -1,0 +1,4 @@
+ProductType::CostPerSquareFoot::LaborCostPerSquareFoot
+Steel::3.25::2.00
+Iron::0.75::3.10
+Glass::4.00::5.00

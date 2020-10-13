@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/mvc
+          http://www.springframework.org/schema/mvc/spring-mvc.xsd
+          http://www.springframework.org/schema/tx
+          http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+          http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context.xsd
+          http://www.springframework.org/schema/aop  
+          http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- Bean definitions go here -->
+    <bean id="io" class="com.mthree.flooringmastery.view.UserIOConsoleImpl"/>
+    
+    <bean id="view" class="com.mthree.flooringmastery.view.FlooringView">
+        <constructor-arg ref="io"/>
+    </bean>
+    
+    <bean id="auditDao" class="com.mthree.flooringmastery.dao.FlooringAuditDaoImpl"/>
+    
+    <bean id="backupDao" class="com.mthree.flooringmastery.dao.FlooringBackupDaoImpl"/>
+    
+    <bean id="productDao" class="com.mthree.flooringmastery.dao.FlooringProductDaoImpl"/>
+    
+    <bean id="statesDao" class="com.mthree.flooringmastery.dao.FlooringStatesDaoImpl"/>
+    
+    <bean id="orderDao" class="com.mthree.flooringmastery.dao.FlooringOrderDaoImpl">
+        <constructor-arg ref="productDao" />
+        <constructor-arg ref="statesDao" />
+    </bean>    
+    
+    <bean id="service" class="com.mthree.flooringmastery.service.FlooringServiceImpl">
+        <constructor-arg ref="auditDao"/>
+        <constructor-arg ref="backupDao"/>
+        <constructor-arg ref="orderDao"/>
+        <constructor-arg ref="productDao"/>
+        <constructor-arg ref="statesDao"/>
+    </bean> 
+    
+    <bean id="controller" class="com.mthree.flooringmastery.controller.FlooringController">
+        <constructor-arg ref="view"/>
+        <constructor-arg ref="service"/>
+    </bean>
+</beans>
